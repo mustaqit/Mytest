@@ -1,0 +1,267 @@
+
+
+Array
+(
+    [0] => ATSReferralPaidSearchProfile Object
+        (
+            [ATSReferralpaidSearchSubId] => 
+            [paidSearchSubId] => 
+            [subscriberId] => I-N03RDVDLGDAW
+            [status] => A
+            [amount] => 
+            [currencyCode] => 
+            [contactsId] => 1212
+            [signature] => 
+            [subActivateDate] => 
+            [subEndDate] => 
+            [process] => 
+            [paidSearchSubAddedDate] => 
+            [paidSearchSubModifiedDate] => 
+            [paidSearchSubAddedBy] => 
+            [paidSearchSubModifiedBy] => 
+            [type] => 
+            [data] => 
+            [addedDate] => 
+            [lastPaymentDate] => 2016-09-08 09:02:33
+            [paidFeatureDisableDate] => 
+            [trasactionId] => 
+            [paymentFailed] => 
+            [payerEmail] => 
+            [companyId] => 2446
+            [reactivateFlag] => 
+        )
+
+)
+CompanyFeatures Object
+(
+    [companyFeaturesId] => 
+    [companyId] => 2446
+    [companyDomain] => 
+    [companyATSEnabled] => 
+    [companyReferralEnabled] => 1
+    [companyFeaturesAddedDate] => 
+    [companyFeaturesModifiedDate] => 
+    [companyFeaturesAddedBy] => 
+    [companyFeaturesModifiedBy] => 
+    [ATSStatus] => 
+    [ReferralStatus] => D
+)
+ATSReferralPaidSearchProfile Object
+(
+    [ATSReferralpaidSearchSubId] => 
+    [paidSearchSubId] => 
+    [subscriberId] => 
+    [status] => 
+    [amount] => 
+    [currencyCode] => 
+    [contactsId] => 
+    [signature] => 
+    [subActivateDate] => 
+    [subEndDate] => 
+    [process] => Y
+    [paidSearchSubAddedDate] => 
+    [paidSearchSubModifiedDate] => 
+    [paidSearchSubAddedBy] => 
+    [paidSearchSubModifiedBy] => 
+    [type] => Referral
+    [data] => 
+    [addedDate] => 
+    [lastPaymentDate] => 
+    [paidFeatureDisableDate] => 
+    [trasactionId] => 
+    [paymentFailed] => 
+    [payerEmail] => 
+    [companyId] => 2446
+    [reactivateFlag] => 
+)
+
+
+https://184.106.241.171/ventureloop2016/ats_payment_success.php?tx=4SD95571WY783723U&st=Completed&amt=9%2e95&cc=USD&cm=1212&item_number=&sig=Z%2fsuLY2O9DFgAhVIP5Pkh3OwA0uIehGHYdRUjrwMGkKJkhnLY6FNsz03AJovnsgDlbC4kMw7Puo8oYpHn6Zt01qfAUHGnuL10VlIREAMeBSvqJJtLFpkyl7%2bLS8RPCXCewI8CB%2fsE56x3fpc7pDfJkPpJ2o8UgOmeZTuq6b8WWI%3d
+
+https://184.106.241.171/ventureloop2016/referral_payment_success.php?tx=4SD95571WY783723U&st=Completed&amt=9%2e95&cc=USD&cm=1212&item_number=&sig=Z%2fsuLY2O9DFgAhVIP5Pkh3OwA0uIehGHYdRUjrwMGkKJkhnLY6FNsz03AJovnsgDlbC4kMw7Puo8oYpHn6Zt01qfAUHGnuL10VlIREAMeBSvqJJtLFpkyl7%2bLS8RPCXCewI8CB%2fsE56x3fpc7pDfJkPpJ2o8UgOmeZTuq6b8WWI%3d
+
+
+
+
+https://localhost/ventureloop_final/ats_payment_success.php?tx=4SD95571WY783723U&st=Completed&amt=9%2e95&cc=USD&cm=1212&item_number=&sig=Z%2fsuLY2O9DFgAhVIP5Pkh3OwA0uIehGHYdRUjrwMGkKJkhnLY6FNsz03AJovnsgDlbC4kMw7Puo8oYpHn6Zt01qfAUHGnuL10VlIREAMeBSvqJJtLFpkyl7%2bLS8RPCXCewI8CB%2fsE56x3fpc7pDfJkPpJ2o8UgOmeZTuq6b8WWI%3d
+
+
+https://localhost/ventureloop_final/referral_payment_success.php?tx=4SD95571WY783723U&st=Completed&amt=9%2e95&cc=USD&cm=1212&item_number=&sig=Z%2fsuLY2O9DFgAhVIP5Pkh3OwA0uIehGHYdRUjrwMGkKJkhnLY6FNsz03AJovnsgDlbC4kMw7Puo8oYpHn6Zt01qfAUHGnuL10VlIREAMeBSvqJJtLFpkyl7%2bLS8RPCXCewI8CB%2fsE56x3fpc7pDfJkPpJ2o8UgOmeZTuq6b8WWI%3d
+
+
+
+
+
+
+
+
+
+
+
+
+if(empty($optionType))
+$paidSearchProfileObj = new PaidSearchProfile();
+
+$ATSReferralObj = new ATSReferralPaidSearchProfile();
+$optionType=1;
+$paymentType='Referral';
+$ATSReferralPaidObj->subscriberId = 121334;
+echo $ATSReferralObj->subscri;exit;
+
+$ATSReferralUserArr = $ATSReferralPaidObj->getATSReferralUserDetailsReport($optionType,$paymentType);
+
+echo "<pre>"; print_r($ATSReferralUserArr);exit;
+
+//$ATSReferralObj = new ATSReferralPaidSearchProfile();
+$ATSReferralPaidObj->subscriberId = 121334;
+
+
+https://localhost/ventureloop_final/ats_payment_success.php?tx=4SD95571WY783723U&st=Completed&amt=9%2e95&cc=USD&cm=1212&item_number=&sig=Z%2fsuLY2O9DFgAhVIP5Pkh3OwA0uIehGHYdRUjrwMGkKJkhnLY6FNsz03AJovnsgDlbC4kMw7Puo8oYpHn6Zt01qfAUHGnuL10VlIREAMeBSvqJJtLFpkyl7%2bLS8RPCXCewI8CB%2fsE56x3fpc7pDfJkPpJ2o8UgOmeZTuq6b8WWI%3d
+
+
+ATSReferralPaidSearchProfile Object
+(
+    [ATSReferralpaidSearchSubId] => 
+    [paidSearchSubId] => 
+    [subscriberId] => 
+    [status] => A
+    [amount] => 9.95
+    [currencyCode] => USD
+    [contactsId] => 1212
+    [signature] => Z/suLY2O9DFgAhVIP5Pkh3OwA0uIehGHYdRUjrwMGkKJkhnLY6FNsz03AJovnsgDlbC4kMw7Puo8oYpHn6Zt01qfAUHGnuL10VlIREAMeBSvqJJtLFpkyl7+LS8RPCXCewI8CB/sE56x3fpc7pDfJkPpJ2o8UgOmeZTuq6b8WWI=
+    [subActivateDate] => 20160825121232
+    [subEndDate] => 
+    [process] => 
+    [paidSearchSubAddedDate] => 
+    [paidSearchSubModifiedDate] => 
+    [paidSearchSubAddedBy] => 
+    [paidSearchSubModifiedBy] => 
+    [type] => ATS
+    [data] => 
+    [addedDate] => 
+    [lastPaymentDate] => 20160825121232
+    [paidFeatureDisableDate] => 
+    [trasactionId] => 
+    [paymentFailed] => 
+    [payerEmail] => 
+    [companyId] => 2446
+)
+
+
+https://localhost/ventureloop_final/referral_payment_success.php?tx=9LD478349W8794930&st=Completed&amt=9%2e95&cc=USD&cm=1212&item_number=&sig=EmbfJy6RBU1Xvv841j%2fICtmk1B9Tc9Wri9iQF7KCwRUsb8u%2fLmLzneCjXoUDlKrTO%2f6hVQIZCqOld4Bqe5W68nDgxNQ4SvjmUSpJ8bIrEwL8xosjm4jthn7RcsDkJWbyYVtW2tvyYTvcMwkB6EitxKDAmjRPtPzaIbhSYYPjig0%3d
+
+
+ATSReferralPaidSearchProfile Object
+(
+    [ATSReferralpaidSearchSubId] => 
+    [paidSearchSubId] => 
+    [subscriberId] => 
+    [status] => A
+    [amount] => 9.95
+    [currencyCode] => USD
+    [contactsId] => 1212
+    [signature] => EmbfJy6RBU1Xvv841j/ICtmk1B9Tc9Wri9iQF7KCwRUsb8u/LmLzneCjXoUDlKrTO/6hVQIZCqOld4Bqe5W68nDgxNQ4SvjmUSpJ8bIrEwL8xosjm4jthn7RcsDkJWbyYVtW2tvyYTvcMwkB6EitxKDAmjRPtPzaIbhSYYPjig0=
+    [subActivateDate] => 20160825120430
+    [subEndDate] => 
+    [process] => 
+    [paidSearchSubAddedDate] => 
+    [paidSearchSubModifiedDate] => 
+    [paidSearchSubAddedBy] => 
+    [paidSearchSubModifiedBy] => 
+    [type] => Referral
+    [data] => 
+    [addedDate] => 
+    [lastPaymentDate] => 20160825120430
+    [paidFeatureDisableDate] => 
+    [trasactionId] => 
+    [paymentFailed] => 
+    [payerEmail] => 
+    [companyId] => 2446
+)
+
+
+
+function getATSReferralUserDetailsReport($optionType,$paymentType){
+	
+		$link = new DBConnect ( );
+		$conn = $link->getMysqliConnection ();
+
+		$query = "SELECT * from Contacts c";
+		$query .= " LEFT JOIN ContactEmailAssociations ceass ON ceass.contactsId = c.contactsId ";
+		$query .= " LEFT JOIN ContactEmailAddress cea ON cea.contactsEmailId = ceass.contactsEmailId ";
+		$query .= " LEFT JOIN ATSReferralPaidSearchProfile arpsp ON arpsp.contactsId = c.contactsId ";
+		$query .= " LEFT JOIN Company C ON  C.companyId=arpsp.companyId";		
+		$query .= " LEFT JOIN PaidSearchTransaction pst ON pst.subscriberId =arpsp.subscriberId";
+
+		
+		if ($optionType == 3 && $paymentType='ATS'){
+			$query .= " WHERE  arpsp.status  = 'D' ";
+		}elseif ($optionType == 2 && $paymentType='ATS'){
+			$query .= " WHERE  arpsp.status  = 'A' ";
+		}else{
+			$query .= " WHERE arpsp.status  = 'D' OR  arpsp.status  = 'A' ";
+		}
+
+				
+		$query .= "group by c.contactsId ORDER BY arpsp.subActivateDate DESC";
+
+		//echo $query;exit;
+		
+		$stmt = $conn->prepare ( $query );
+
+		$stmt->execute ();
+		$stmt->store_result ();
+
+		$num_rows = $stmt->num_rows;
+
+		if ($conn->error) {
+			return false;
+		} else {
+			if ($num_rows > 0) {
+				$contactsArray = array ();
+
+				$singleContactEmailAssociation = new ContactEmailAssociations ( );
+				$singleContactEmailAddress = new ContactEmailAddress ( );
+				$singlePaidSearchProfile = new PaidSearchProfile ( );
+				$singleCompany = new Company ( );
+				$meta = $stmt->result_metadata ();
+				while ( $field = $meta->fetch_field () ) {
+					$params [] = &$line [$field->name];
+				}
+				call_user_func_array ( array ($stmt, 'bind_result' ), $params );
+
+				while ( $stmt->fetch () ) {
+						
+					$singleContact = new Contacts ( );
+						
+					foreach ( $singleContact as $key => $value ) {
+						$singleContact->$key = $line [$key];
+					}
+					foreach ( $singleContactEmailAssociation as $key => $value ) {
+						$singleContact->contactEmailAssociationsObj->$key = $line [$key];
+					}
+					foreach ( $singleContactEmailAddress as $key => $value ) {
+						$singleContact->contactEmailAddressObj->$key = $line [$key];
+					}
+						
+					foreach ( $singlePaidSearchProfile as $key => $value ) {
+						$singleContact->paidSearchProfileObj->$key = $line [$key];
+					}
+						
+					foreach ( $singleCompany as $key => $value ) {
+						$singleContact->companyObj->$key = $line [$key];
+					}
+
+						
+					//echo"<pre>";print_r($singleContact);break;
+						
+					array_push ( $contactsArray, $singleContact );
+				}
+				
+				return $contactsArray;
+			}
+		}
+	}
+
+
+
