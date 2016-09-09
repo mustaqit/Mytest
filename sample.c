@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-printf("Mustaq");
+printf("Mushthaq Ahamed M");
 return 0;
 }
 
