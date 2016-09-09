@@ -1,0 +1,214 @@
+
+						(Job Portal Website)
+Ventureloop: 
+ 
+VentureLoop is the worldwide leader in job postings focused on venture-backed companies.
+
+Ventureloop is a Job portal company which is long-term associated with VCs (Venture Capitals),VCs are the direct clients to ventureloop and VL invests on VCs so VCs are able to post the jobs with free of charge.
+
+Venture Capital firms have been associated with PCs (Portfolio Companies) and so Portfolio Companies are able to post their jobs in Ventureloop site with their VCs rights.
+
+Non-Client VCs are the companies which are not invested by Ventureloop so they are posting jobs with subscription by paying money through Paypal.NCVCs are associated with NCVCPCs (Non-client VCPCs) and so they are able to post their jobs in Ventureloop site with their NCVC payment.
+
+Non-Client PCs are the companies which are also not invested by ventureloop and any firm so they post jobs with subscription by paying money through Paypal.NCPCs have no investors.
+
+Note:  *Each firm has authentication to post the jobs.
+
+Terminologies:
+    VL		-> Ventureloop
+    VC		-> Venture Capitals
+    PC		-> Portfolio Companies
+   NCVC	-> Non-client Venture Capital 
+   NCPC	-> Non-client portfolio companies	
+  NCVCPC	-> Non-client VC PC
+
+URLs:
+New Template: http://ventureloop.com/ventureloop/home.php
+Old Template: http://ventureloop.com/ventureloopadmin/home.php
+Staging	: https://184.106.241.171/ventureloop_final/home.php
+		  https://184.106.241.171/ventureloop/home.php	
+
+
+
+Important Clients:
+*SequoiaCapital
+*Benchmark
+*Accel
+*Atlas
+*VantagePoint
+*FoundersFund
+*FirstRound
+*M
+*Polaris
+*FoundationCapital
+*OmidyarNetwork
+*Atlos
+*Greycroft
+*Index
+*Versant
+*Balderton
+*Sigma
+*Trinity
+*CommonWealth
+*Mayfield
+
+
+Security :
+	Ventureloop uses encryption,secured servers and firewall technology located in top-rated cloud environment.
+
+Languages :
+	*PHP (MVC template).
+	*Javascript.
+	*HTML and CSS.
+
+Databases :
+*Mysql  (Name: “hireloop”). 
+*Solr   (Used for Search).
+*Mongo  (Document Use).
+*Memcache.
+
+
+
+
+
+
+What and How to Use?
+-------------------------------------------------------------------------------------
+Post a Job.
+Free of Charge ( VCs and Associated PCs ).
+Subscription	  ( All NCVCs and NCPCs ).
+-------------------------------------------------------------------------------------
+Search a Job.
+Free of Charge ( VCs and Associated PCs ).
+Subscription	  ( All NCVCs and NCPCs ).
+-------------------------------------------------------------------------------------
+Refer a Job.
+Referral List
+Referral Invite Lists.
+Referral Rule.
+-------------------------------------------------------------------------------------
+Resume Search.
+Keywords.
+Name.
+Company and Title.
+-------------------------------------------------------------------------------------
+Reports
+Job reports (Total Jobs Posted, Searched and Count).
+Resume reports (Total Resumes Posted and Count).
+FB Job Reports.
+New VC Report.
+Api Call Report.
+VC Detailed Report.
+VC Graph Report.
+-------------------------------------------------------------------------------------
+	
+
+Paypal :
+   *Online payment gateway system for paying money.
+   *Both NCVCs and NCPCs do pay through this paypal.
+   *Paypal money subscription for every month.
+   *Billing History can be seen and check the status of subscription.
+
+Admin Functions : (Only for VL Admin)  /adm_functions.php
+Analytics
+User Admin
+Get User & Verification Code by Email Address
+Company/Vendor Admin
+Company Industry Admin
+Custom Functions
+Loops Admin
+Location Admin
+Job Widget & Friends
+Company Stage Admin
+Company Job Widget Hits Report
+News Listings
+News RSS Listings
+News Articles Search
+Referral Activation
+Region Admin
+Vendor Listing
+Vendor Category Admin
+LinkedIn Dashboard
+FB Dashboard
+Solr Indexing Counts
+Non-client PC Admin
+NCPC Jobs Admin
+Highlighted Jobs Admin
+Automate VC Report Admin
+Missing Company Industry Admin
+Post Jobs to Twitter
+News Ticker Generate-http://www.sigmapartners.com/update_news.php afterwards
+Co-invested VC Report
+Smashfly Job Report
+VL & VC Resume Download
+VL Client VCs
+PC List Related VL Client VCs
+Not VL Client AND Not NCVC Report
+ALL NCVC Report
+Co-Invested VCs Report
+Missing Analytics Report
+NCVC Job List
+Paid Search User Report
+VC Resume Count
+Resume Count
+VC Google Analytics Report
+
+
+Admin Functions: (Only for VC Admin)
+Company Admin
+User Admin
+My VC Job Search
+
+--------------------------------------------------------------------------
+
+Categories:
+vl->	testvcadmin@gmail.com
+vc->	vishnushankar.r@gmail.com
+pc->	vshankar@sirahu.com
+ncpc->	test@ncpc2013.com
+
+1.login.php  
+2.logoff.php
+
+1=>
+Menus are 
+	Home
+	Referraljobs(only for ncpc)
+	Myaccount
+	Referredjobs
+	Interviews (only for vl and vc admins)----newly added 
+	Jobsearch
+	Postajob (only for vl and vc admins)
+	Vendors (only for vl admin)
+	Admin
+	Vlhr
+
+sub-menus for admin menu are 
+	Reports (only for vl admin)
+	Jobsadmin
+	Vcadmin (only for vc admin)
+	Referraladmin (only for ncpc)
+	Resumesearch (only for vl,vc and pc admins)
+	Newsadmin (only for vc admin)
+	Vladmin (only for vl admin)
+	Company (only for vc,pc and ncpc admins)
+	Main
+ 
+2=>
+Menus are
+	Home
+	Jobsearch
+	Employer/vc
+	Postajob
+	Vlhr
+
+
+
+
+
+
+
+
+
+
+
